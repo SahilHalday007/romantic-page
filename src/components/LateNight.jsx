@@ -130,7 +130,7 @@ export default function LateNight() {
         onPointerMove={moveDrag(who)}
         onPointerUp={() => endDrag(who)}
         onPointerCancel={() => endDrag(who)}
-        className="absolute z-10 flex flex-col items-center gap-2 focus-visible:z-20 focus-visible:outline-none"
+        className="absolute z-10 flex touch-none flex-col items-center gap-2 focus-visible:z-20 focus-visible:outline-none"
         style={{
           left: pos?.x ?? '50%',
           top: pos?.y ?? '50%',
