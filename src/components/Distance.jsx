@@ -154,7 +154,7 @@ export default function Distance() {
           onPointerMove={handlePointerMove}
           onPointerUp={handlePointerUp}
           onPointerCancel={handlePointerUp}
-          className="absolute left-1/2 -translate-x-1/2 focus-visible:outline-none"
+          className="absolute left-1/2 -translate-x-1/2 touch-none focus-visible:outline-none"
           style={{ top: `${bottomPct - 4.5}%`, transition: dragging ? 'none' : 'top 1s cubic-bezier(0.16,1,0.3,1)' }}
         >
           <span className="relative flex h-14 w-14 items-center justify-center rounded-full">
